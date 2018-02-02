@@ -1,12 +1,31 @@
 div.container {
     width: 100%;
     background-color: #777;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header, footer {
+    display: block;
     width: 960px;
-    margin-left: 100px; 
-    margin-right: 150px;
     text-align: center;
-    background-color: #ebebeb
+    background-color: #ebebeb;
+    margin-left: 10%;
+    margin-right: 15%;
+    } 
+
+nav {
+    width: 960px;
+    text-align: center;
+    background-color: #ebebeb;
+    margin-left: 10%;
+    margin-right: 15%;
+} 
+
+section {
+    margin-left: 10%;
+    margin-right: 15%;
+    background-color: #ebebeb;
+    width: 495px;
+    text-align: center;
 }
